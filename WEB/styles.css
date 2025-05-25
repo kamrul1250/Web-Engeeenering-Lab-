@@ -1,0 +1,43 @@
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:70%;  
+  float:left;
+}
+.bc {
+  background-color: indigo;
+}
+.center-form {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  padding: 30px;
+}
+.mycontainer form {
+  width: 600px; 
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.mycontainer form textarea {
+  display: block;
+  margin: 0 auto 10px auto;
+  width: 100%;
+  text-align: left;
+}
+.oslo-box {
+  background-color: #FFC0C7;
+  width: 10%;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.oslo-box h2,
+.oslo-box p {
+  margin: 0;
+}

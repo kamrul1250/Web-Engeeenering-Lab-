@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrimonial Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images.jfif">
+</head> 
+    <body class="bc">
+     <p style="background-image: url('download (1).jfif');"></p>
+     <h1 style="color:gold;text-align:center;">Matrimonial Information Form</h1>
+     <div style="background-color:#FAF9F6;"> 
+        <div class="mycontainer" style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div style="background-color:#a3ffe3; display: flex; justify-content: space-between; align-items: flex-start;">
+                                            <h6>Please fill the form with necessary information</h6>
+
+                    <form action="/action_page.php" autocomplete="on">
+                        
+
+                        <!-- Name fields -->
+
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value=" "><br>
+                        <label for="mname">Middle name:</label><br>
+                        <input type="text" id="mname" name="mname" value=" "><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value=" "><br><br>
+
+                        <!-- Gender -->
+
+                        <label for="gender">Gender :</label>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="Female" style="margin-left: 11%;">
+                        <label for="female" >Female</label><br><br>
+
+                        <!-- Birthday -->
+
+                        <label for="birthday">Birthday:</label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+
+                        <!-- Profession -->
+
+                        <label for="curprof">Current Profession:</label><br>
+                        <input type="text" id="curprof" name="curprof" value=" "><br>
+                        <label for="recexprof">Recent Ex Profession:</label><br>
+                        <input type="text" id="recexprof" name="recexprof" value=" "><br>
+                        <label for="salary">Salary:</label><br>
+                        <input type="number" id="salary" name="salary" value=" "><br><br>
+
+                        <!-- Family -->
+
+                        <label for="dad">Father's name:</label><br>
+                        <input type="text" id="dad" name="dad" value=" "><br>
+                        <label for="dadp">Father's Profession:</label><br>
+                        <input type="text" id="dadp" name="dadp" value=" "><br>
+                        <label for="cursta">Current Status :</label>
+                        <input type="radio" id="retired" name="cursta" value="Retired">
+                        <label for="retired">Retired</label><br>
+                        <input type="radio" id="nretired" name="cursta" value="Not Retired" style="margin-left: 18.2%;">
+                        <label for="Not Retired"> Not Retired</label><br><br>
+                        <label for="mom">Mother's name:</label><br>
+                        <input type="text" id="mom" name="mom" value=" "><br>
+                        <label for="momp">Mother's Profession:</label><br>
+                        <input type="text" id="momp" name="momp" value=" "><br>   
+                        <label for="cursta">Current Status :</label>
+                        <input type="radio" id="retired" name="cursta" value="Retired">
+                        <label for="retired">Retired</label><br>
+                        <input type="radio" id="nretired" name="cursta" value="Not Retired" style="margin-left: 18.2%;">
+                        <label for="Not Retired">Not Retired</label><br><br>
+
+                        <!-- Siblings -->
+
+                        <label for="sibi">Do you have siblings?</label>
+                        <input type="radio" id="Yes, I have" name="sibi" value="Yes, I have">
+                        <label for="Yes, I have">Yes, I have</label><br>
+                        <input type="radio" id="Not, I have not" name="sibi" value="Not, I have not" style="margin-left: 25.41%;">
+                        <label for="Not, I have not">Not, I have not</label><br><br>
+                        <label for="sibquan">I have ___ siblings.</label>
+                        <input type="number" id="I have ___ siblings."><br><br>
+
+                        <!-- Details siblings -->
+
+                        <label for="sibquanb" for="sibquans">Among them :</label>
+                        <input type="number" id="I have ___ siblings." name="sibquanb">
+                        <label for="sibquan">Brother.</label>
+                        <input type="number" id="I have ___ siblings." name="sibquans">
+                        <label for="sibquan">Sister.</label><br><br>
+                        <label for="details of siblings">Details of siblings</label>
+                        <textarea name="details of siblings" rows="10" cols="104.9">
+                        </textarea>
+
+                        <!-- Hobby -->
+
+                        <label for="Hobby">Hobby</label>
+                        <textarea name="Hobby" rows="10" cols="104.9">  
+                        </textarea>
+                        
+                        <!-- Future -->
+
+                        <label for="Future Planning">Future Planning</label>
+                        <textarea name="Future Planning" rows="10" cols="104.9">  
+                        </textarea>
+
+                        <input type="submit" style="display: block; margin: 20px auto 0 auto;">
+
+                    </form>
+
+            </div>
+  
+            <div class="oslo-box">
+                <label for="Image">Upload your image:</label><br>
+                <input type="file" id="Image" name="Image" accept="image/*"><br><br>
+                <input type="button" onclick="alert('Uploaded')" value="Upload" style="margin-left: 1%;">
+                <input type="reset" value="Reset" style="margin-left: 9%;">
+                <img src="download (1).jfif" alt="Loading" style="height: 600px; object-fit: contain;">
+
+
+             
+            </div>
+
+        </div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+    
+    </body>
+</html>
